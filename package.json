@@ -1,0 +1,25 @@
+{
+  "name": "qvac-acronym-generator",
+  "version": "1.0.0",
+  "description": "Enter a phrase and an on-device AI helps build acronym options from that phrase's actual words. No cloud call, no API key.",
+  "type": "module",
+  "main": "src/gui.js",
+  "scripts": {
+    "start": "node src/gui.js",
+    "gui": "node src/gui.js"
+  },
+  "keywords": [
+    "qvac",
+    "on-device-ai",
+    "acronym",
+    "llm",
+    "offline-ai"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@qvac/sdk": "^0.19.0"
+  },
+  "engines": {
+    "node": ">=22.17"
+  }
+}
